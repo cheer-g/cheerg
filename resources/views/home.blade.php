@@ -16,8 +16,20 @@
             <div>
                 <div class="pt-3 font-weight-bold">Sreerag</div>
                 <div> K. Bye.</div>
-                <div class="font-weight-bold"><a href="cheer-g.github.io">cheer-g.github.io</a></div>
+                <div class="font-weight-bold"><a href="https://cheer-g.github.io">cheer-g.github.io</a></div>
             </div>
+        </div>
+    </div>
+
+    <div class="row pt-5">
+        <div class="col-4">
+            <img src="https://instagram.fcok1-1.fna.fbcdn.net/v/t51.2885-15/e35/s150x150/85056145_217010229473384_4686196615642217997_n.jpg?_nc_ht=instagram.fcok1-1.fna.fbcdn.net&_nc_cat=108&_nc_ohc=AphJ5wfz080AX-MYM_Y&oh=0517a4805edfee1c5ff34b71a0a743ae&oe=5F3E30D0" alt="" class="w-100">
+        </div>
+        <div class="col-4">
+            <img src="https://instagram.fcok1-1.fna.fbcdn.net/v/t51.2885-15/e35/c0.108.864.864a/s150x150/84119479_1014792575561582_7009571403863836109_n.jpg?_nc_ht=instagram.fcok1-1.fna.fbcdn.net&amp;_nc_cat=102&amp;_nc_ohc=uQaoMnOtK-0AX-MqrFl&amp;oh=65396135e5849528c6d6e2c19ccd7f6b&amp;oe=5F3C9607" alt="" class="w-100">
+        </div>
+        <div class="col-4">
+            <img src="https://instagram.fcok1-1.fna.fbcdn.net/v/t51.2885-15/e15/c0.90.720.720a/s150x150/74713599_601340467284995_6321337145317930751_n.jpg?_nc_ht=instagram.fcok1-1.fna.fbcdn.net&amp;_nc_cat=111&amp;_nc_ohc=TVe_-cbg6AQAX_52irK&amp;oh=f2a884b669b9134eeffd9df56786075b&amp;oe=5F3CEE96" alt="" class="w-100">
         </div>
     </div>
 </div>
