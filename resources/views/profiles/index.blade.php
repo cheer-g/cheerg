@@ -26,7 +26,7 @@
 
     <div class="row pt-5">
         @foreach ($user->posts as $post)
-            <div class="col-4">
+            <div class="col-4 pb-4">
                 <img src="/storage/{{$post->image}} " alt="error" class="w-100">
             </div>  
         @endforeach
