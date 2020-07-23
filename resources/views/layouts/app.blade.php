@@ -24,7 +24,7 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand d-flex" href="{{ url('/') }}">
-                    <div ><img src="png/cheerG.png" alt="logo" style="height: 20px; border-right: 1px solid #333"></div>
+                    <div ><img src="/png/cheerG.png" alt="logo" style="height: 20px; border-right: 1px solid #333"></div>
                     <div class="pl-3">cheerGram</div>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
