@@ -19,11 +19,12 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::post('follow/{user}', 'FollowsController@store');
+
 
 Route::get('/posts/create','PostsController@create');
 Route::get('/posts/{post}','PostsController@show');
 Route::post('/posts','PostsController@store');
+Route::post('follow/{user}', 'FollowsController@store');
 
 Route::get('/profile/{user}', 'ProfilesController@index')->name('profile.show');
 Route::get('/profile/{user}/edit', 'ProfilesController@edit')->name('profile.edit');
