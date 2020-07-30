@@ -3,12 +3,22 @@
 namespace App\Http\Controllers;
 use  Intervention\Image\Facades\Image;
 use Illuminate\Http\Request;
+use App\Posts;
 
 class PostsController extends Controller
 {
     public function __construct()
     {
         $this -> middleware('auth');
+    }
+
+    public function index()
+    {
+        $users = auth()->user()->following()->pluck('profiles.user_id');
+
+        $posts = Posts::whereIn('user_id',$users)->latest()->get();
+
+        return view('posts.index', compact('posts'));
     }
 
     public function create()
